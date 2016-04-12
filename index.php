@@ -1,0 +1,673 @@
+<!--A Design by ps.jayachandran
+Author: http://alagianallur.eu5.org/
+Author URL: http://w3layouts.com
+License Life Time Free
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>S.Jacob Responsive One Page Theme :| by Ps.jayachandran</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Agendo Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<!--theme-style-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+	<!--//theme-style-->
+    <!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+	<!-- animated-css -->
+	<!--fonts-->
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />	
+	<!--//fonts-->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+    <link href="css/silder.css" rel="stylesheet" media="all">
+    <link href="js/fancybox/source/jquery.fancybox.css" rel="stylesheet" />               
+    <script src="js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>      
+    <script src="js/jquery.touchSwipe.min.js"></script>
+	<script src="js/silder.js"></script>
+    <script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>    
+    <script src="js/app.js"></script>
+    <script src="js/portfolio.js"></script> 
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+            Portfolio.init();                      
+        });
+    </script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="js/mypassion.js"></script>
+</head>
+<body>
+<div id="loading-mask">
+	<div class="loading-img"><img src="images/loading4.gif" alt="MyPassion" /></div>
+</div>
+
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start menu part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<div class="header">
+  <div class="container">
+	<div class="logo">
+		<a href="index.html"><img src="images/logo.png" alt=""></a>
+	</div>
+    <div class="menu">
+	   <a class="toggleMenu" href="#"><img src="images/menu.png" alt="" /> </a>
+	   <ul class="nav" id="nav">
+		 <li><a href="#full_width_carousel">Home</a></li>
+		 <li><a href="#abouts">About Us</a></li>
+		 <li><a href="#team">Team</a></li>
+		 <li><a href="#services">Services</a></li>
+		 <li><a href="#portfolio">Portfolio</a></li>
+		 <li><a href="#contact">Contact Us</a></li>								
+	  </ul>
+	  <script type="text/javascript" src="js/responsive-nav.js"></script>
+	</div>							
+    <div class="clearfix"> </div>
+	<!----//End-top-nav---->
+  </div>
+</div>
+
+    
+ <!--  ==============================================================================================================
+       end menu part                
+       ==============================================================================================================  -->
+       
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start silder part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+
+		<div id="full_width_carousel" class="carousel slide animate_text full_width_carousel_wrapper" data-ride="carousel" data-interval="6000" data-pause="hover">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="images/slider_01.jpg" alt="slider 01" />
+					<div class="carousel-caption full_width_carousel_caption" data-animation="animated fadeInUp">
+						<h2 data-animation="animated fadeInDown">Titta</h2>
+						<h1 data-animation="animated fadeInDown">Welcome to S.Jakobs böstad</h1>
+		<a href="#abouts" class="full_width_carousel_button_colored" data-animation="animated fadeInDown">Get Started</a>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/slider_02.jpg" alt="slider 02" />
+					<div class="carousel-caption full_width_carousel_caption full_width_carousel_caption_right" data-animation="animated fadeInUp"><h2 data-animation="animated fadeInDown">Jacobs house</h2>
+						<h1 data-animation="animated fadeInDown">Welcome to S.Jakobs böstad!</h1>
+		<a href="#abouts" class="full_width_carousel_button_colored" data-animation="animated fadeInDown">Get Started</a>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/slider_03.jpg" alt="slider 03" />
+					<div class="carousel-caption full_width_carousel_caption full_width_carousel_caption_center" data-animation="animated fadeInUp">
+						<h2 data-animation="animated fadeInDown">bostad</h2>
+						<h1 data-animation="animated fadeInDown">Welcome to S.Jakobs böstad</h1>
+		<a href="#abouts" class="full_width_carousel_button_colored" data-animation="animated fadeInDown">Get Started</a>
+					</div>
+				</div>
+
+			</div>
+			<a class="left carousel-control full_width_carousel_control_left" href="#full_width_carousel" role="button" data-slide="prev">
+				<span class="fa fa-angle-double-left full_width_carousel_control_icons" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control full_width_carousel_control_right" href="#full_width_carousel" role="button" data-slide="next">
+				<span class="fa fa-angle-double-right full_width_carousel_control_icons" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+
+		</div> 		
+        
+ <!--  ==============================================================================================================
+       end silde part                
+       ==============================================================================================================  -->
+
+
+
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start Abouts part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<div id="abouts">
+	<div class="container">
+    	<div class="tittle">
+        	<h2>  about us </h2>
+        </div>
+        	<div class="col-md-3">
+            		<div class="abouts wow bounceIn" data-wow-delay="0.4s">
+                    	 <div class="hi-icon-wrap hi-icon-effect-8">
+							<a href="#set-3" class="hi-icon fa fa-leaf"></a>
+						</div>
+                        <h3> Easily Customizabla  </h3>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  </p>
+                    </div>
+            </div>
+            <div class="col-md-3">
+            		<div class="abouts wow bounceIn" data-wow-delay="0.4s">
+                    	 <div class="hi-icon-wrap hi-icon-effect-8">
+							<a href="" class="hi-icon fa fa-desktop"></a>
+						</div>
+                        <h3> Responsive <br> Design </span>   </h3>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  </p>
+                    </div>
+            </div>
+            
+           <div class="col-md-3">
+            		<div class="abouts wow bounceIn" data-wow-delay="0.4s">
+                    	 <div class="hi-icon-wrap hi-icon-effect-8">
+							<a href="" class="hi-icon fa fa-leanpub"></a>
+						</div>
+                        <h3> Fully <br> Documented</h3>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  </p>
+                    </div>
+            </div>
+            
+            <div class="col-md-3">
+            		<div class="abouts wow bounceIn" data-wow-delay="0.4s">
+                    	 <div class="hi-icon-wrap hi-icon-effect-8">
+							<a href="" class="hi-icon fa fa-jsfiddle"></a>
+						</div>	
+                        <h3> Excellent Features </h3>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  </p>
+                    </div>
+            </div>
+    </div>
+</div>    
+    
+<!--  ==============================================================================================================
+       end Abouts part                
+       ==============================================================================================================  -->    
+    
+    
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start Meet TEAM part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+
+<div id="team">
+	<div class="container">
+   		 <div class="team">
+         	<h2> Meet The <span> Team </span> </h2>
+  		  </div>
+          
+          	<div class="col-md-3">
+            	<div class="member wow bounceInRight" data-wow-delay="0.5s">
+                	  <div class="view view-fifth">
+                			<img src="images/t1.jpg" alt="" title="Team Member">
+                   	 		<h4>Lorem Ipsum</h4>
+                             		<div class="social facebooks">
+											<a href="#"> <i class="fa fa-facebook"> </i></a>
+										</div>
+                                         <div class="social plus">
+											<a href="#"> <i class="fa fa-linkedin"> </i></a>
+										</div>
+                                         <div class="social twi">
+											<a href="#"> <i class="fa  fa-twitter"> </i></a>
+										</div>
+                                         <div class="social read">
+											<a href="#"> <i class="fa  fa-rss"> </i></a>
+										</div>
+               		 			</div>			
+           		 </div>
+           	</div>
+            
+           <div class="col-md-3">
+            	<div class="member wow bounceInRight" data-wow-delay="0.5s">
+                	  <div class="view view-fifth">
+                			<img src="images/t2.jpg" alt="" title="Team Member">
+                   	 		<h4>Lorem Ipsum</h4>
+                             		<div class="social facebooks">
+											<a href="#"> <i class="fa fa-facebook"> </i></a>
+										</div>
+                                         <div class="social plus">
+											<a href="#"> <i class="fa fa-linkedin"> </i></a>
+										</div>
+                                         <div class="social twi">
+											<a href="#"> <i class="fa  fa-twitter"> </i></a>
+										</div>
+                                         <div class="social read">
+											<a href="#"> <i class="fa  fa-rss"> </i></a>
+										</div>
+               		 			</div>			
+           		 </div>
+           	</div>
+            <div class="col-md-3">
+            	<div class="member wow bounceInRight" data-wow-delay="0.5s">
+                	  <div class="view view-fifth">
+                			<img src="images/t3.jpg" alt="" title="Team Member">
+                   	 		<h4>Lorem Ipsum</h4>
+                             		<div class="social facebooks">
+											<a href="#"> <i class="fa fa-facebook"> </i></a>
+										</div>
+                                         <div class="social plus">
+											<a href="#"> <i class="fa fa-linkedin"> </i></a>
+										</div>
+                                         <div class="social twi">
+											<a href="#"> <i class="fa  fa-twitter"> </i></a>
+										</div>
+                                         <div class="social read">
+											<a href="#"> <i class="fa  fa-rss"> </i></a>
+										</div>
+               		 			</div>			
+           		 </div>
+           	</div>
+                    
+          <div class="col-md-3">
+            	<div class="member wow bounceInRight" data-wow-delay="0.5s">
+                	  <div class="view view-fifth">
+                			<img src="images/t4.jpg" alt="" title="Team Member">
+                   	 		<h4>Lorem Ipsum</h4>
+                             		<div class="social facebooks">
+											<a href="#"> <i class="fa fa-facebook"> </i></a>
+										</div>
+                                         <div class="social plus">
+											<a href="#"> <i class="fa fa-linkedin"> </i></a>
+										</div>
+                                         <div class="social twi">
+											<a href="#"> <i class="fa  fa-twitter"> </i></a>
+										</div>
+                                         <div class="social read">
+											<a href="#"> <i class="fa  fa-rss"> </i></a>
+										</div>
+               		 			</div>			
+           		 </div>
+           	</div>
+            
+    </div>
+</div>
+ <!--  ==============================================================================================================
+       end Meet TEAM part                
+       ==============================================================================================================  -->
+
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start SErvices part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<div id="services">
+	<div class="container">
+    	<div class="tittle">
+        	<h2> Services </span>  </h2>
+        </div>
+       		 <div class="services">
+       				 <p> I will try to modify this part</p>
+        	</div>
+            
+            
+            
+            	<div class=" col-md-6 services wow bounceInRight" data-wow-delay="0.5s">
+                	<div class="col-md-3">
+                  		<div class="serviceicon hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="" class="hi-icon fa  fa-globe"></a>
+							</div>
+                  	  </div>
+                    
+                    <div class="col-md-9">
+                    	 <h4>Search Engine Optimization</h4>
+                       				 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  	  </div>
+                </div>
+                
+                <div class=" col-md-6 services wow bounceIn" data-wow-delay="0.4s">
+                	<div class="col-md-3">
+                  		  <div class="serviceicon hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="" class="hi-icon fa fa-cart-arrow-down"></a>
+							</div>
+                  	  </div>
+                    
+                    <div class="col-md-9">
+                    	 <h4>E-commerce Solution</h4>
+                       				 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  	  </div>
+                </div>
+                
+                <div class=" col-md-6 services wow bounceInRight" data-wow-delay="0.5s">
+                	<div class="col-md-3">
+                  		 <div class="serviceicon hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="" class="hi-icon fa fa-camera"></a>
+							</div>
+                  	  </div>
+                    
+                    <div class="col-md-9">
+                    	 <h4>Photography</h4>
+                       				 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  	  </div>
+                </div>
+                
+                <div class=" col-md-6 services wow bounceIn" data-wow-delay="0.4s">
+                	<div class="col-md-3">
+                  		  <div class="serviceicon hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="" class="hi-icon fa  fa-film"></a>
+							</div>
+                  	  </div>
+                    
+                    <div class="col-md-9">
+                    	 <h4>Video Editing</h4>
+                       				 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  	  </div>
+                </div>
+                
+                <div class=" col-md-6 services wow bounceInRight" data-wow-delay="0.5s">
+                	<div class="col-md-3">
+                  		  <div class="serviceicon hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="" class="hi-icon fa fa-rocket"></a>
+							</div>
+                  	  </div>
+                    
+                    <div class="col-md-9">
+                    	 <h4>Start Lauching</h4>
+                       				 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  	  </div>
+                </div>
+                
+                <div class=" col-md-6 services wow bounceIn" data-wow-delay="0.4s">
+                	<div class="col-md-3">
+                  		 <div class="serviceicon hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="" class="hi-icon fa fa-mobile"></a>
+							</div>
+                  	  </div>
+                    
+                    <div class="col-md-9">
+                    	 <h4>Mobile Development</h4>
+                       				 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                      </div>
+                </div>
+    </div>
+</div>
+
+ <!--  ==============================================================================================================
+       end menu part                
+       ==============================================================================================================  -->
+
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start Protofilo  part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<div id="portfolio">
+	<div class="container">
+    	<div class="tittle">
+        	<h2> portfolio </span> </h2>
+        </div>
+        	 <div class="min-hight portfolio-page margin-bottom-40 wow bounceIn" data-wow-delay="0.4s">
+    			   <!-- BEGIN FILTER -->           
+    			   <div class="filter-v1">
+                              <ul class="mix-filter">
+                                  <li class="filter active" data-filter="all">All</li>
+                                  <li class="filter" data-filter="category_1">Brand Identity</li>
+                                  <li class="filter" data-filter="category_2">Web Development</li>
+                                  <li class="filter" data-filter="category_3">Mobile Apps</li>
+                                  <li class="filter" data-filter="category_3 category_1"> Development</li>
+                              </ul>
+                              <div class="row mix-grid thumbnails">
+                                 <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_1 category_2 mix_all">
+                                       <div class="mix-inner">
+                                         <img class="img-responsive" src="images/pro1.jpg" alt="">
+                                         <div class="mix-details">
+                                            <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro1.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>                         
+                                         </div>                  
+                                      </div>                      
+                                  </div>
+                                  <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_1 category_2 mix_all">
+                                       <div class="mix-inner">
+                                         <img class="img-responsive" src="images/pro2.jpg" alt="">
+                                         <div class="mix-details">
+                                            <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro2.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>                         
+                                         </div>                  
+                                      </div>                      
+                                  </div>
+                                  <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_2 category_1 mix_all">
+                                    <div class="mix-inner">
+                                      <img class="img-responsive" src="images/pro3.jpg" alt="">
+                                      <div class="mix-details">
+                                          <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro3.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>                       
+                                      </div>     
+                                      </div>                                   
+                                  </div>
+                                  <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_1 category_2 mix_all">
+                                    <div class="mix-inner">
+                                      <img class="img-responsive" src="images/pro4.jpg" alt="">
+                                      <div class="mix-details">
+                                         <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro4.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>                        
+                                      </div>     
+                                      </div>                                   
+                                  </div>
+                                  <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_2 category_3 mix_all">
+                                    <div class="mix-inner">
+                                      <img class="img-responsive" src="images/pro5.jpg" alt="">
+                                      <div class="mix-details">
+                                          <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro5.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>                            
+                                      </div>    
+                                      </div>                                    
+                                  </div>
+                                  <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_1 category_2 mix_all">
+                                    <div class="mix-inner">
+                                      <img class="img-responsive" src="images/pro6.jpg" alt="">
+                                      <div class="mix-details">
+                                          <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro6.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>                        
+                                      </div>   
+                                      </div>                                     
+                                  </div>
+                                  <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_3 mix_all">
+                                    <div class="mix-inner">
+                                      <img class="img-responsive" src="images/pro7.jpg" alt="">
+                                      <div class="mix-details">
+                                          <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro7.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>                            
+                                      </div>    
+                                      </div>                                    
+                                  </div>
+                                  <div style="display: inline-block;  opacity: 1;" class="col-md-3 col-sm-4 mix category_1 mix_all">
+                                    <div class="mix-inner">
+                                      <img class="img-responsive" src="images/pro8.jpg" alt="">
+                                      <div class="mix-details">
+                                          <h4> Tittle Here</h4>
+                                          <a class="mix-link"><i class="fa fa-link"></i></a>
+                                          <a class="mix-preview fancybox-button" href="images/pro8.jpg" title="Project Name" data-rel="fancybox-button"><i class="fa fa-arrows-alt"></i></a>
+                                      </div> 
+                                      </div>                                       
+                                  </div>
+                              </div>
+        			</div>
+        		</div>
+     <div class="clearfix"></div>
+    </div>
+</div>
+
+ <!--  ==============================================================================================================
+       end Protofilo part                
+       ==============================================================================================================  -->
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start silder part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<div id="test"> 
+	<div class="container">
+    	<Div class="team">
+    		<h2> Testimonials </h2>
+        </Div>
+        		<div id="testimonial_carousel" class="carousel testimonial_carousel_fade testimonial_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="testimonial_carousel_caption">
+						<img src="images/team_01.png" alt="slider 01" />
+						<h3>Lorem ipsum</h3>
+						<a href="#">Lorem ipsum</a>
+						<p><i class="arrow fa fa-quote-left"></i>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.<i class="arrow fa fa-quote-right"></i></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial_carousel_caption">
+						<img src="images/team_01.png" alt="slider 01" />
+						<h3>Lorem ipsum</h3>
+						<a href="#">Lorem ipsum</a>
+						<p><i class="arrow fa fa-quote-left"></i>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.<i class="arrow fa fa-quote-right"></i></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial_carousel_caption">
+						<img src="images/team_01.png" alt="slider 01" />
+						<h3>Lorem ipsum</h3>
+						<a href="#">Lorem ipsum</a>
+						<p><i class="arrow fa fa-quote-left"></i>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.<i class="arrow fa fa-quote-right"></i></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial_carousel_caption">
+						<img src="images/team_01.png" alt="slider 01" />
+						<h3>Lorem ipsum</h3>
+						<a href="#">Lorem ipsum</a>
+						<p><i class="arrow fa fa-quote-left"></i>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.<i class="arrow fa fa-quote-right"></i></p>
+					</div>
+				</div>
+
+			</div>
+
+			
+
+		</div>  
+		
+    </div>
+</div>     
+     
+ <!--  ==============================================================================================================
+       end TESTIMONIAL part                
+       ==============================================================================================================  -->
+       
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start client part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+ 
+    
+
+ <!--  ==============================================================================================================
+       end client part                
+       ==============================================================================================================  -->
+
+
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start Contact part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<div id="contact" class="contact">
+	<div class="container">
+    	<div class="tittle">
+        	<h2> Contact us </span> </h2>
+        </div>
+        
+        
+        	<div class="contact contact-grids wow bounceInRight" data-wow-delay="0.5s">
+				<div class="col-md-4 contact-left">				
+					<form action="php/contact.php" method="post">
+						<input type="text"  value="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required>
+						<input type="email" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required>
+						<input type="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required>
+						<textarea type="text" value="comment"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required>Message...</textarea>
+						<input type="submit" value="Submit" >
+					</form>
+				</div>
+                <div class="col-md-4 map">
+                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10015.498657932954!2d-0.1570060357124469!3d51.129219866008135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875f1c859d0e855%3A0xb0ce82410da5809!2sA2011%2C+Crawley%2C+West+Sussex+RH10%2C+UK!5e0!3m2!1sen!2sin!4v1409743498026" frameborder="0" style="border:0"></iframe>
+                
+                </div>
+                
+                
+                
+                
+				<div class="col-md-4 contact-right">
+                	<h3> Get In Touch </h3>
+					<p class="cnt-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sheets containing Lorem Ipsum passages sed do </p>
+					<p>Eiusmod Tempor inc</p>
+					<p>2222 St Dolor,xxxxxxxx</p>
+					<p>Telephone : +2 111 111 1111</p>
+					<p>FAX : +1 000 0000 0000</p>
+					<p>Email : <a href="mailto:example@mail.com">mail@example.com</a></p>
+				</div>							
+				<div class="clearfix"> </div>
+			</div>
+    </div>
+</div>
+
+ <!--  ==============================================================================================================
+       end Contact part                
+       ==============================================================================================================  -->
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start footer part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<div id="footer">
+	<div class="container">
+    	<div class="footer wow bounceInRight" data-wow-delay="0.5s">
+        	<p> &copy;2016 avada. All Rights  Reserved </p>
+       
+        		<div class="right wow bounceInLeft" data-wow-delay="0.5s">
+					<div class="socias facebooks">
+		  				 <a href="#"> <i class="fa fa-facebook"> </i></a>
+					</div>
+					<div class="socias twi">
+		  				 <a href="#"> <i class="fa fa-twitter"> </i></a>
+					</div>
+					<div class="socias plus">
+		  				 <a href="#"> <i class="fa fa-google-plus"> </i></a>
+					</div>
+					<div class="socias read">
+		  				 <a href="#"> <i class="fa fa-rss"> </i></a>
+					</div>
+					<div class="socias pit">
+		 			  <a href="#"> <i class="fa fa-pinterest-p"> </i></a>
+					</div>
+        		</div>
+             </div>
+    </div>
+</div>
+
+ <!--  ==============================================================================================================
+       end footer part                
+       ==============================================================================================================  -->
+
+
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   		Start silder part
+  	 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+				};
+				*/
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+ <!--  ==============================================================================================================
+       end menu part                
+       ==============================================================================================================  -->
+
+</body>
+</html>
